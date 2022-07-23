@@ -286,7 +286,7 @@ img {
   text-align: center;
 }
 
-.hero-button {
+.button {
   background-color: var(--link-color);
   color: var(--secondary-color);
   font-style: normal;
@@ -305,8 +305,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.button:hover,
+.button:focus {
   background-color: #188ce8;
 }
 
@@ -315,7 +315,7 @@ img {
   padding-bottom: 0;
 }
 
-.features-title {
+.features__title {
   color: var(--h-color);
   font-style: normal;
   font-weight: 700;
@@ -326,30 +326,30 @@ img {
   margin-top: 30px;
 }
 
-.features-text {
+.features__text {
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-.features-group {
+.features__group {
   display: flex;
   padding-inline-start: unset;
   justify-content: space-between;
 }
 
-.features-pstn:not(:last-child) {
+.features__pstn:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-icon {
+.features-box__icon {
   width: 70px;
   height: 70px;
   fill: #212121;
 }
 
-.features-icon-box {
+.features-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,7 +360,7 @@ img {
 
 /* What we do Section styles */
 
-.projects-title {
+.section-title {
   color: var(--h-color);
   font-style: normal;
   font-weight: 700;
@@ -378,7 +378,7 @@ img {
   position: relative;
 }
 
-.project-overlay {
+.project__overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -411,7 +411,6 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  /* padding-top: 94px; */
   padding-bottom: 50px;
 }
 
@@ -523,7 +522,7 @@ img {
   --indent: 30px;
 }
 
-.clients-list-link {
+.clients-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -537,7 +536,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-clients {
+.clients-list__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
@@ -547,12 +546,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
   border: 1px solid var(--link-color);
 }
-.clients-list-link:hover .icon-clients,
-.clients-list-link:focus .icon-clients {
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
   fill: var(--link-color);
 }
 

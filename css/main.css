@@ -1216,7 +1216,7 @@ img {
   position: relative;
 }
 
-.project-overlay {
+.projects__overlay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
